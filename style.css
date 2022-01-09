@@ -1,0 +1,31 @@
+h1::before{
+  content: "hello";
+  color: red;
+}
+h1::after{
+    content: ' gello';
+    color: red;
+}
+span{
+    background-color: red;
+    display: block;
+    
+}
+div{
+    background-color: lightcoral;
+    width: 300px;
+}
+a{
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  background-color: gray;
+}
+a:visited{
+    color: red;
+}
+.middle-person:focus{
+    color: blue;
+    font-weight: 700;
+}
